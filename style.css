@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100vh; */
+    
+}
+body{
+    
+    background-color: hsl(0, 0%, 100%);
+    font-family: League Spartan;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+  
+    /* max-width: 100vh; */
+    /* padding: 5em; */
+
+}
+.wrapper{
+    background-image: url(images/bg-pattern-top-desktop.svg),url(images/bg-pattern-bottom-desktop.svg); 
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 25em, 50em;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 1200px;
+    padding: 5em;
+    padding-top: 5em;
+    gap: 2.5em;
+}
+
+.our{
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+
+.first{
+   width:300px;
+   color: hsl(300, 43%, 22%);
+  
+}
+h1{
+    font-size: 3.1em;
+    padding-bottom: 1.2rem;
+    color: hsl(300, 35%, 36%);
+    font-weight: 700;
+    text-shadow: 1px 1px;
+    
+}
+.first p{
+    color:  hsl(300, 25%, 35%);
+    font-size: .8rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+}
+
+.one{
+    display: flex;
+    gap: 1rem;
+    background-color:hsl(300, 24%, 96%);
+    padding: 15px 30px;
+    border-radius: 6px;
+    margin-right: 5em;
+    margin-bottom: 1em;
+    text-align: center;
+    color:  hsl(300, 30%, 45%);
+    text-shadow: 0.5px 0.5px;
+    font-weight: 500;
+   
+    
+}
+
+.two{
+    display: flex;
+    gap: 1rem;
+    background-color:hsl(300, 24%, 96%);
+    padding: 15px 30px;
+    border-radius: 6px;
+    margin-right: 3em;
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    color: hsl(300, 30%, 45%);
+    text-shadow: 0.5px 0.5px;
+    font-weight: 500;    
+}
+
+.three{
+    display: flex;
+    gap: 1rem;
+    background-color:hsl(300, 24%, 96%);
+    padding: 15px 30px;
+    border-radius: 6px;
+    margin-left: 5em;
+    margin-bottom: 1em;
+    text-align: center;
+    color:hsl(300, 30%, 45%);
+    text-shadow: 0.5px 0.5px;
+    font-weight: 500;
+}
+
+.buyers{
+    display: flex;
+    gap: 2em;
+}
+article{
+    background-color: hsl(300, 43%, 22%);
+    max-width: 500px;
+    border-radius: 6px;
+    color: hsl(0, 0%, 100%);
+    padding: 2em;
+}
+
+.verify{
+    display: flex;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+
+picture img{
+    border-radius: 40px;
+    width: 3.5em;
+}
+
+span{
+    color:hsl(333, 80%, 67%);
+    font-size: .8rem;
+}
+
+.irene{
+    margin-bottom: -2rem;
+    margin-top: 2rem;
+}
+
+.anne{
+    margin-bottom: -4rem;
+    margin-top: 4rem;
+} 
+
+@media screen and (max-width: 400px) {
+    body{
+        max-width: 100vh;
+        gap:.5em;
+    }
+    .wrapper{
+        background-image: url(images/bg-pattern-top-mobile.svg),url(images/bg-pattern-bottom-mobile.svg); 
+        background-repeat: no-repeat;
+        background-position: top left, bottom center;
+        background-size: 25em;
+        display: flex;
+        flex-direction: column;
+        background-color: hsl(0, 0%, 100%);
+        max-width: 500px;
+        padding: 0em;
+        padding-top: 3em;
+        gap: 0em;
+    }
+    .our{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+        
+    }
+    article{
+        background-color: hsl(300, 43%, 22%);
+        max-width: 16rem;
+        border-radius: 6px;
+        color: hsl(0, 0%, 100%);
+        padding: 2em;
+    }
+    .one{
+        display: block;
+        background-color:hsl(300, 24%, 96%);
+        padding: 7px;
+        border-radius: 6px;
+        margin-right: 0px;
+        margin-bottom: 1em;
+        text-align: center;
+        color:  hsl(300, 30%, 45%);
+        text-shadow: 0.5px 0.5px;
+        font-weight: 500;
+        width: 17rem; 
+       
+        
+    }
+    
+    .two{
+        display: block;
+        background-color:hsl(300, 24%, 96%);
+        padding: 7px;
+        border-radius: 6px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 1em;
+        text-align: center;
+        color: hsl(300, 30%, 45%);
+        text-shadow: 0.5px 0.5px;
+        font-weight: 500; 
+        width: 17rem;   
+    }
+    
+    .three{
+        display: block;
+        gap: 1rem;
+        background-color:hsl(300, 24%, 96%);
+        padding: 7px;
+        border-radius: 6px;
+        margin-left: 0;
+        margin-bottom: 3em;
+        text-align: center;
+        color:hsl(300, 30%, 45%);
+        text-shadow: 0.5px 0.5px;
+        font-weight: 500;
+        width: 17rem; 
+        
+    }
+    .buyers{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    h1{
+        font-size: 2.5em;
+        padding-bottom: 1.2rem;
+        text-align: center;
+        color: hsl(300, 35%, 36%);
+        font-weight: 700;
+        text-shadow: 1px 1px;
+        line-height: 2.2rem;
+        
+    }
+    .first{
+        width:300px;
+        color: hsl(300, 43%, 22%);
+       
+     }
+     
+     .first p{
+         color:  hsl(300, 25%, 35%);
+         font-size: 1rem;
+         line-height: 1rem;
+         font-weight: 500;
+         width: 270px;
+         text-align: center;
+     }
+     .irene{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    
+    .anne{
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    } 
+    
+     
+
+}
+    
